@@ -1,0 +1,22 @@
+{
+  "name": "houston",
+  "description": "Yet another web boilerplate",
+  "version": "0.1.0",
+  "author": "Jonathan Engstrom",
+  "repository": "jsengstrom/houston",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass-globbing": "^1.5.1",
+    "matchdep": "^1.0.1"
+  },
+  "dependencies": {}
+}
