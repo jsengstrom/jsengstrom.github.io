@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>The TOO MetaMask</title>
+  <meta name="robots" content="noindex">
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <link href="/build/css/global.css" rel="stylesheet">
+
+  <!-- Favicons (IE 10 and below uses favicon.ico in the root) -->
+  <link rel="icon" href="/build/img/favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="/build/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/build/img/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="/build/img/favicon-62.png" sizes="62x62" type="image/png">
+
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="/build/img/apple-touch-icon.png" sizes="180x180">
+
+  <!--[if lt IE 9]>
+    <script src="build/js/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <style>
+    .video-container {
+      width: 100vw;
+      height: 160vw;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .video-container:after {
+      content:'\25BC';
+      width: 80px;
+      height: 40px;
+      border-radius: 40px 40px 0 0;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -40px;
+      text-align:center;
+      line-height: 45px;
+    }
+
+    .video-container video {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  </style>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-101596929-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+<main class="">
+  <div class="video-container rhythm">
+    <video src="/build/video/mask-test-3.mp4" autoplay muted loop></video>
+  </div>
+  <article class="container rhythm--double">
+    <div class="text--center rhythm--half">Try it on:</div>
+    <a class="btn--block rhythm--half" href="https://www.instagram.com/ar/199836112338018/?ch=NWQ4MGNkNTQwNTM3NmE4YzhkY2YwNzlmNTA2NzJhZjc%3D" style="background-color: #f56040; color: #fff !important;">Instagram</a>
+    <a class="btn--block" href="https://www.facebook.com/fbcameraeffects/testit/199836112338018/NWQ4MGNkNTQwNTM3NmE4YzhkY2YwNzlmNTA2NzJhZjc=/" style="background-color: #1877f2; color: #fff !important;">Facebook</a>
+  </article>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.0-rc2/lazysizes.min.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="/build/js/global.min.js"></script>
+</body>
+</html>
